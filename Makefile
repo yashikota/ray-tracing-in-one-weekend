@@ -11,7 +11,7 @@ $(PROGRAM):
 
 .PHONY: fmt
 fmt:
-	clang-format -i $(SRCDIR)/*.cpp
+	clang-format -i $(SRCDIR)/*.cpp $(SRCDIR)/*.h
 
 .PHONY: clean
 clean:
