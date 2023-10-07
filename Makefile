@@ -7,7 +7,7 @@ PROGRAM	= main
 all: $(PROGRAM)
 
 $(PROGRAM):
-	$(CC) $(CFLAGS) -o $(PROGRAM).exe $(SRCDIR)/*.cpp
+	$(CC) $(CFLAGS) -o $(PROGRAM).exe $(SRCDIR)/$(PROGRAM).cpp
 
 .PHONY: fmt
 fmt:
