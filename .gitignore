@@ -32,7 +32,7 @@
 *.out
 *.app
 
-# image files
-/img
+# ppm files
+/img/*.ppm
 
 # End of https://www.toptal.com/developers/gitignore/api/c++
